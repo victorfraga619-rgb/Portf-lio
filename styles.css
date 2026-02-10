@@ -1,0 +1,36 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+header{
+    background-color: #3926dd;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.content{
+    background-color: rgb(16, 168, 74);
+    padding: 20px;
+    border-radius: 3px;
+    border: 2px solid #000000;
+}
+
+footer{
+    background-color: #424050;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
